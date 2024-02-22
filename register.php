@@ -17,7 +17,7 @@ include_once("connection.php");
             <div id="register_modal" class="modal-container2">
                 <div class="modal-content2">
                     <div class="modal-left2">
-                        <img id="panda2" src="images/panda2.jpg" alt="Panda">
+                        <img id="panda2" src="images/girl.jpg" alt="Panda">
                     </div>
 
                     <div class="modal-right2">
