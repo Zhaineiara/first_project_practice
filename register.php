@@ -9,7 +9,7 @@ include_once("connection.php");
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="icon" href="images/mifamilia_w.png"/>
         <link rel="stylesheet" href="design/register.css"/>	
-        <title>Mi Familia - Register</title>
+        <title>Mi Familiaaa - Register</title>
     </head>
 
     <body>
