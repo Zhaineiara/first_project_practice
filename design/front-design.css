@@ -1,0 +1,368 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Maiden+Orange&family=Rubik+Doodle+Shadow&family=Rubik+Scribble&display=swap');
+/*for all*/
+
+html{
+    height:100%
+}
+
+/*background ng body*/
+body {
+    background: linear-gradient(180deg, rgba(211, 149, 56, 0.7) 0%, rgba(217, 217, 217, 0) 100%), url('../images/shop_background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    color: #333;
+    font-size: 15px;
+    height: 100vh; /* Note: Used viewport height instead of percentage for better compatibility */
+    line-height: 1.5;
+    margin: 0; /* Note: Removed default margin to ensure full coverage */
+    padding: 0;
+    display: flex; /* Note: Changed display to flex */
+    justify-content: center;
+    align-items: center;
+}
+  
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*first webpage
+1. title
+2. tagline
+3. home button
+4. about button
+5. log in button
+*/
+#title{
+    /*font design*/
+    color: white; 
+    font-size: 110px; 
+    font-family: 'Rubik Doodle Shadow'; 
+    font-style: italic; 
+    font-weight: 900; 
+
+    /*position*/
+    text-align: center; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#tagline{
+    /*font design*/
+    color: white; 
+    font-size: 40px; 
+    font-family: 'Maiden Orange'; 
+    font-weight: 500; 
+
+    /*position*/
+    text-align: center; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 200px;
+    padding-bottom: 15px;
+}
+
+/*button 1 design*/
+.first_header_button{
+    /*box design*/
+    text-decoration: none;
+    border-radius: 5px;
+    border: 3px solid #FFF;
+    display: inline-flex;
+    width: 110px;
+    height: 52px;
+    padding: 15px 15px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+
+    /*text design*/
+    color: #FFF;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+/*button 2 design*/
+.second_header_button{
+    /*box design*/
+    text-decoration: none;
+    border-radius: 5px;
+    border: 3px solid #c17802;
+    background: #ff9d00;
+    display: flex;
+    width: 110px;
+    height: 52px;
+    padding: 15px 15px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    cursor: pointer;
+
+    /*text design*/
+    color: #FFF;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.first_header_button:hover, .second_header_button:hover{
+    border-radius: 5px;
+    border: 2px solid #934F1A;
+    background: #934F1A
+    
+}
+
+.first_header_button:active, .second_header_button:active{
+    border-radius: 5px;
+    border: 2px solid #49270D;
+    background: #49270D;
+}
+
+/*positions of buttons*/
+#home-btn{
+    position: fixed;
+    top: 72px; /* Adjust the top value as needed */
+    left: 1037px; /* Adjust the left value as needed */
+    z-index: 2 /* Ensure the button is above other elements if needed */
+}
+
+#about-btn{
+    position: fixed;
+    top: 72px; /* Adjust the top value as needed */
+    left: 1167px; /* Adjust the left value as needed */
+    z-index: 2 /* Ensure the button is above other elements if needed */
+}
+
+#login-btn{
+    position: fixed;
+    top: 72px; /* Adjust the top value as needed */
+    left: 1297px; /* Adjust the left value as needed */
+    z-index: 2 /* Ensure the button is above other elements if needed */
+}
+
+/*log in modal*/
+.modal-container{
+    display: none;
+    width: 798px;
+    height: 464px;
+    border-radius: 32px;
+    background: #FCD4A6;
+    box-shadow: 0px 5px 4px 0px rgba(0, 0, 0, 0.25);
+    position: relative;
+    margin-top: 30px;
+}
+
+/*left side - panda*/
+.modal-left{
+    width: 399px;
+    height: 464px;
+    border-radius: 32px;
+    box-shadow: 0px 5px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+#panda{
+    width: 100%;
+    height: 100%;
+    flex-shrink: 0;
+    border-radius: 32px;
+    box-shadow: 0px 5px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+/*right side - the log in form*/
+.modal-right{
+    width: 399px;
+    height: 464px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    position: relative;
+    flex-shrink: 0;
+    margin-left: auto;
+}
+
+.modal-content{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.close-button{
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 35px;
+    display: flex;
+    color: rgb(255, 255, 255);
+    background-color:  #934F1A;
+    width: 13%;
+    height: 10%;
+    border-top-right-radius: 32px;
+    border-bottom-left-radius: 32px;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+#login-title {
+    display: inline-flex;
+    padding: 1px 7px 21px 8px;
+    justify-content: center;
+    align-items: center;
+    color: #472000; 
+    font-size: 40px; 
+    font-family: Inter; 
+    font-weight: 600;   
+}
+
+.description {
+    color: #472000;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: normal;
+    font-family: Inter;     
+    padding-top: 5px;
+    margin-left: 12px;
+}
+
+.input-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+input{
+    width: 339px;
+    height: 55px;
+    border-radius: 12px;
+    border: 3px solid #9a490a;
+    background: #D2630E;
+    padding: 10px;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+input:hover{
+    background-color: #a64f0d;
+}
+
+.input-container input::placeholder {
+    color: #f4aa6e;
+}
+
+.icon{
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    left: 298px; 
+    top: 15px; 
+    filter: invert(100%);
+}
+
+.forgot-password {
+    color: #8F613D;
+    text-align: right;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 30px;
+    margin-right: 15px;
+    font-family: Inter;
+}
+
+.forgot-password:hover{
+    color: #C25A0A;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.forgot-password:active{
+    color: #f58d3e;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.login-button {
+    width: 339px;
+    height: 40px;
+    border-radius: 20px;
+    background: #934F1A;
+    border: 3px solid #763f14;
+    color: #F2AD78;
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-bottom: 10px;
+}
+
+.login-button:hover{
+    background: #ab6d3e;
+    border: 3px solid #905c34;
+    cursor: pointer;
+}
+
+.login-button:active{
+    background: #49270D;
+    border: 2px solid #49270D;
+}
+
+.register-description {
+    color: #8F613D;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: normal;
+    font-family: Inter;
+}
+
+#highlight{
+    text-decoration: underline;
+    color: #8F613D;
+}
+
+#highlight:hover{
+    font-weight: bold;
+    color: #C25A0A;
+    cursor:pointer;
+}
+
+#highlight:active{
+    color: #f58d3e;;
+}
+
+
+
+
+
+
+

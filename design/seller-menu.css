@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Maiden+Orange&family=Rubik+Doodle+Shadow&family=Rubik+Scribble&display=swap');
+/*for all*/
+
+html{
+    height:100%
+}
+
+/*background ng body*/
+body {
+    background-color:#FFDFC7;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: center;
+    color: #333;
+    font-size: 15px;
+    height: 100vh; /* Note: Used viewport height instead of percentage for better compatibility */
+    line-height: 1.5;
+    margin: 0; /* Note: Removed default margin to ensure full coverage */
+    padding: 0;
+    display: flex; /* Note: Changed display to flex */
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+    overflow-y: scroll; /* Add vertical scrollbar */
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/*MENU*/
+.sort-button {
+    position: absolute;
+    top: 120px; /* Adjust the top distance as needed */
+    right: 20px; /* Adjust the left distance as needed */
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#sort-title {
+    font-size: 16px;
+    font-family: Inter;
+    color: #333;
+    font-weight: bold;
+}
+
+#sortCriteria {
+    margin-top: 5px;
+    padding: 5px;
+    font-size: 14px;
+    font-family: Inter;
+    width: 100%;
+}
+
+#sort-btn {
+    margin-top: 10px;
+    padding: 5px 20px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: Inter;
+}
+
+.menu_table {
+    position: absolute;
+    width: 1280px;
+    background-color: transparent;
+    left: 120px;
+    top: 101px;
+}
+
+.card_design{
+    background-color: #FDC168;
+    border: 1px solid #af6a01;
+    padding: 10px;
+    margin: 15px;
+    width: 220px;
+    height: 246px;
+    position: relative;
+}
+
+.product_box {
+    box-sizing: border-box;  /* Include padding and borders in the box's total size */
+    width: 246px;
+    height: 246px;
+    background-color: transparent;
+    text-align: center;
+    font-family: Inter;
+}
+
+.product_img {
+    height: 139px;
+    width: 190px;
+    background-color: aqua;
+    text-align: center;
+    border: 1px solid #af6a01;
+}
+
+.product_name {
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.product_price {
+    font-size: 20px;
+    text-align: left;
+    margin-top: 25px;
+}
+
+
+/*edit*/
+.product_edit {
+    background-color: #80d37d;
+    height: 36px;
+    width: 36px;
+    border: 1px solid transparent;
+    z-index: 1;
+    position: absolute;
+    bottom: 0;
+    right: 1;
+    margin-left: 16px;
+    margin-bottom: 10px;
+    border-radius: 2px;
+}
+
+
+.edit-button {
+    width: 34px;
+    height: 34px;
+    filter: invert(100%);
+    align-items: center;
+    padding: 3px;
+}
+
+.edit-button:hover {
+    background-color: #d651fa;
+    border: 1px solid #d651fa;
+    border-radius: 2px;
+    filter: invert(100%);
+    cursor: pointer;
+}
+
+/*delete*/
+.product_delete {
+    background-color: #ec4b4b;
+    height: 36px;
+    width: 36px;
+    border: 1px solid transparent;
+    z-index: 1;
+    position: absolute;
+    bottom: 0;
+    right: 1;
+    margin-left: 60px;
+    margin-bottom: 10px;
+    border-radius: 2px;
+}
+
+
+.delete-button {
+    width: 34px;
+    height: 34px;
+    filter: invert(100%);
+    align-items: center;
+    padding: 3px;
+}
+
+.delete-button:hover {
+    background-color: #67e6ff;
+    border: 1px solid #67e6ff;
+    border-radius: 2px;
+    filter: invert(100%);
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+/*delete
+.product_delete {
+    background-color: #ec4b4b;
+    height: 36px;
+    width: 36px;
+    border: 1px solid transparent;
+    z-index: 1;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 10px;
+    border-radius: 2px;
+}
+
+
+.delete-button {
+    width: 34px;
+    height: 34px;
+    filter: invert(100%);
+    align-items: center;
+    padding: 3px;
+    margin-right: 100px;
+}
+
+.delete-button:hover {
+    background-color: #67e6ff;
+    border: 1px solid #67e6ff;
+    border-radius: 2px;
+    filter: invert(100%);
+    cursor: pointer;
+    width: 35px;
+    height: 34px;
+}
+*/
+
+
+
+
+
+
+
+

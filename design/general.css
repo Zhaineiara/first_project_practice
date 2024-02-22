@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Maiden+Orange&family=Rubik+Doodle+Shadow&family=Rubik+Scribble&display=swap');
+/*for all*/
+
+html{
+    height:100%
+}
+
+/*background ng body*/
+body {
+    background-color:#FFDFC7;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: center;
+    color: #333;
+    font-size: 15px;
+    height: 100vh; /* Note: Used viewport height instead of percentage for better compatibility */
+    line-height: 1.5;
+    margin: 0; /* Note: Removed default margin to ensure full coverage */
+    padding: 0;
+    display: flex; /* Note: Changed display to flex */
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+    overflow-y: scroll; /* Add vertical scrollbar */
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}

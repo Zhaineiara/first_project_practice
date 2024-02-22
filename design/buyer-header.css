@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Maiden+Orange&family=Rubik+Doodle+Shadow&family=Rubik+Scribble&display=swap');
+/*for all*/
+
+html{
+    height:100%
+}
+
+/*background ng body*/
+body {
+    background-color:#FFDFC7;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: center;
+    color: #333;
+    font-size: 15px;
+    height: 100vh; /* Note: Used viewport height instead of percentage for better compatibility */
+    line-height: 1.5;
+    margin: 0; /* Note: Removed default margin to ensure full coverage */
+    padding: 0;
+    display: flex; /* Note: Changed display to flex */
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+    overflow-y: scroll; /* Add vertical scrollbar */
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.upper{
+    background-color: #FFDFC7;
+    width: 1536px;
+    height: 101px;
+    position: absolute;
+    display: flex;
+    top: 0;
+    left: 0;
+}
+
+.first_header{
+    background-color: #CE7129;
+    width: 1520px;
+    height: 50px;
+    position: absolute;
+    display: flex;
+    top: 0;
+    left: 0;
+    font-family: Inter;
+}
+
+#buyer_img{
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.acc-dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Style the dropdown button */
+.acc-btn {
+    background-color: #CE7129;
+    color: #F5DFCD;
+    height: 50px;
+    width: 190px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.acc-btn:hover,
+.acc-dropdown:hover .acc-btn {
+    background-color: #7e461b;
+}
+
+/* Style the dropdown content (hidden by default) */
+.acc-dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #F5DFCD;
+    min-width: 190px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+/* Style the links inside the dropdown */
+.acc-dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color on hover */
+.acc-dropdown-content a:hover {
+    background-color: #a75d24;
+    color: #F5DFCD;;
+}
+
+/* Show the dropdown content when the dropdown button is hovered over */
+.acc-dropdown:hover .acc-dropdown-content {
+    display: block;
+}
+
+#logo_img{
+    position: absolute;
+    margin-left: 500px;
+}
+
+.cart-container{
+    position: absolute;
+}
+
+#cart-button{
+    align-items: center;
+    background-color: #CE7129;
+    color: white;
+    position: absolute;
+    cursor: pointer;
+    height: 50px;
+    width: 80px;
+    align-items: center;
+    border: none;
+    margin-left: 1154px;
+}
+
+#cart-button:hover{
+    background-color: #7e461b;
+}
+
+.bag-container{
+    position: absolute;
+}
+
+#bag-button{
+    align-items: center;
+    background-color: #CE7129;
+    color: white;
+    position: absolute;
+    cursor: pointer;
+    height: 50px;
+    width: 80px;
+    align-items: center;
+    border: none;
+    margin-left: 1074px;
+}
+
+#bag-button:hover{
+    background-color: #7e461b;
+}
+
+.header-icon{
+    width: 16px;
+    height: 16px;
+    filter: invert(100%);
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; /* Align items to the right end */
+    margin-left: 1014px;
+    align-items: center;
+}
+
+input[type="text"] {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.search-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+/* Add some styles on hover for better user feedback */
+.search-button:hover {
+    background-color: #7e461b;
+}
+
+/*Second line*/
+.second_header{
+    background-color: #CE7129;
+    width: 1520px;
+    height: 50px;
+    position: absolute;
+    display: flex;
+    top: 50px;
+    left: 0;
+    margin-top: 1px;
+}
+
+.sec.content-container{
+    position: absolute;
+}
+
+#menu-button, #silog-button, #snack-button, #drink-button, #additional-button{
+    align-items: center;
+    background-color: #CE7129;
+    color: white;
+    position: absolute;
+    cursor: pointer;
+    height: 50px;
+    width: 256px;
+    align-items: center;
+    border: none;
+    font-size: 20px;
+    font-family: Inter;
+}
+
+#menu-button{
+    margin-left: 120px;
+}
+
+#silog-button{
+    margin-left: 376px;
+}
+
+#snack-button{
+    margin-left: 632px;
+}
+
+#drink-button{
+    margin-left: 888px;
+}
+
+#additional-button{
+    margin-left: 1144px;
+}
+
+
+#menu-button:hover, #silog-button:hover, #snack-button:hover, #drink-button:hover, #additional-button:hover{
+    background-color: #7e461b;
+}

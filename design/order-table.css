@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Maiden+Orange&family=Rubik+Doodle+Shadow&family=Rubik+Scribble&display=swap');
+/*for all*/
+
+html{
+    height:100%
+}
+
+/*background ng body*/
+body {
+    background-color:#FFDFC7;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: center;
+    color: #333;
+    font-size: 15px;
+    height: 100vh; /* Note: Used viewport height instead of percentage for better compatibility */
+    line-height: 1.5;
+    margin: 0; /* Note: Removed default margin to ensure full coverage */
+    padding: 0;
+    display: flex; /* Note: Changed display to flex */
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+    overflow-y: scroll; /* Add vertical scrollbar */
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.cart_order{
+    background-color: rgb(183, 152, 114);
+    background-color: transparent;
+    border: transparent;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    left: 106px;
+    top: 101px;
+    position: absolute;
+}
+
+.order-title{
+    border: 1px solid #af6a01;
+    background-color: #d89632;
+    display: flex;
+    width: 1324px;
+    height: 71px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    font-family: Inter;
+    font-size: 40px;
+    color: #76531f;
+}
+
+.id_num, .cus_name, .ord_date, .cus_profile, .cus_order, .ord_status{
+    height: 55px;    
+    border: 1px solid #af6a01;
+    background-color: rgb(245, 199, 131);
+    color: #76531f;
+    font-size: 25px;
+    text-align: center;
+    font-family: Inter;
+    padding-top: 10px;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+    float: left;
+}
+
+.id_num{width: 58px;}
+.cus_name{width:402px;}
+.ord_date, .cus_profile, .cus_order{width:201px;}
+.ord_status{width:261px;}
+
+.row-cart th {
+    border: 1px solid #af6a01;
+    text-align: left;
+    font-family: Inter;
+    padding: 10px;
+    position: relative;
+}
+
+.row-cart td {
+    border: 1px solid #af6a01;
+    text-align: left;
+    font-family: Inter;
+    padding: 10px;
+    width: 798px;
+    height: 72px;
+    position: relative;
+    color: #472e0a;
+}
+
+.square {
+    height: 10px;
+    width: 10px;
+    background-color: #ca3535;
+    position: relative;
+    margin-left: 8px;
+    margin-top: 15px;
+}
+
+.id_num_info, .cus_name_info, .ord_date_info{
+    height: 40px;    
+    border: 1px solid #af6a01;
+    background-color: #ffffff;
+    color: #76531f;
+    font-size: 15px;
+    text-align: center;
+    font-family: Inter;
+    font-weight: 700;
+    padding-top: 10px;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+    float: left;
+}
+
+.cus_profile_info, .cus_order_info{
+    height: 40px;    
+    border: 1px solid #af6a01;
+    background-color: #ffffff;
+    color: #76531f;
+    font-size: 15px;
+    text-align: center;
+    font-family: Inter;
+    font-weight: 700;
+    padding-top: 5px;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+    float: left;
+}
+
+.order_btn-chg{
+    position: absolute;
+    height: 40px;    
+    border: 1px solid #af6a01;
+    color: #76531f;
+    font-size: 15px;
+    text-align: center;
+    font-family: Inter;
+    font-weight: 700;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+    float: left;
+    margin-left: 1063px;
+}
+
+.id_num_info{width: 58px;}
+.cus_name_info{width:402px;}
+
+.square_info{
+    height: 40px;   
+    width: 22px; 
+    border: transparent;
+    border-bottom: 1px solid #af6a01;
+    border-top: 1px solid #af6a01;
+    border-left: 1px solid #af6a01;
+    background-color: #ffffff;
+    color: #76531f;
+    float: left;
+}
+
+.ord_date_info, .cus_profile_info, .cus_order_info{width:201px;}
+.ord_status_info{width:261px;}
+
+.stat_info{
+    width: 100px;
+    padding-right:10px;
+    border-bottom: 1px solid #af6a01;
+}
+
+.order_btn{
+    background-color: #0ead0e;
+    color: antiquewhite;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.cus_stat_info{
+    padding: 5px;
+    width: 139px;
+}
+
+.stat_info{
+    height: 40px;    
+    border-top: 1px solid #af6a01;
+    background-color: #ffffff;
+    color: #76531f;
+    font-size: 15px;
+    text-align: center;
+    font-family: Inter;
+    font-weight: 700;
+    padding-top: 10px;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+    float: left;
+}
+
+.cus_stat_info{
+    height: 40px;    
+    border-bottom: 1px solid #af6a01;
+    border-top: 1px solid #af6a01;
+    border-right: 1px solid #af6a01;
+    background-color: #ffffff;
+    color: #76531f;
+    font-size: 15px;
+    text-align: center;
+    font-family: Inter;
+    font-weight: 700;
+    padding-top: 5px;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+    float: left;
+}
+
+/*add*/
+/* Add or modify styles for the button */
+.order_btn {
+    background-color: #0ead0e; /* Keep the button green */
+    color: antiquewhite;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 12px;
+    font-weight: 400;
+    text-decoration: none; /* Remove default underline for links */
+    display: inline-block; /* Ensure the button appears as a block */
+    transition: background-color 0.3s ease; /* Add a smooth transition effect */
+}
+
+/* Add a hover effect for the button */
+.order_btn:hover {
+    background-color: #0b8c0b; /* Darker green on hover */
+}
+
+/* Add styles for the green square */
+.square.green {
+    background-color: #0ead0e; /* Green color for complete status */
+}
+
+/* Add styles for the red square */
+.square.red {
+    background-color: #ca3535; /* Red color for incomplete status */
+}
