@@ -17,7 +17,7 @@ include_once("connection.php");
                 <!--MI familia title at center-->
                 <div 
                     id="title">
-                    MI FAMILIA
+                    MI FAMILIAAAA
                 </div>
 
                 <!--MI familia tagline-->
