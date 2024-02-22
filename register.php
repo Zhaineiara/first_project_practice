@@ -7,7 +7,7 @@ include_once("connection.php");
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="icon" href="images/mifamilia_w.png"/>
+        <link rel="icon" href="images/dazai.png"/>
         <link rel="stylesheet" href="design/register.css"/>	
         <title>Mi Familiaaa - Register</title>
     </head>
@@ -17,7 +17,7 @@ include_once("connection.php");
             <div id="register_modal" class="modal-container2">
                 <div class="modal-content2">
                     <div class="modal-left2">
-                        <img id="panda2" src="images/panda2.jpg" alt="Panda">
+                        <img id="panda2" src="images/girl.jpg" alt="Panda">
                     </div>
 
                     <div class="modal-right2">
