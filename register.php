@@ -7,7 +7,7 @@ include_once("connection.php");
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="icon" href="images/mifamilia_w.png"/>
+        <link rel="icon" href="images/dazai.png"/>
         <link rel="stylesheet" href="design/register.css"/>	
         <title>Mi Familia - Register</title>
     </head>
